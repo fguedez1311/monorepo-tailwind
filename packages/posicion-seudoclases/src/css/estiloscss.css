@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.enlace{
+    display: block;
+    background:tomato;
+    color:#fff;
+    text-decoration: none;
+    padding: 20px;
+    border-bottom: 3px solid #ebd1db;
+}
+/* Le aplica el estilos a los elementos que no han sido visitados */
+.enlace:link{
+    background: burlywood;
+}
+/* Le aplica el estilos a los elementos que han sido visitados */
+.enlace:visited{
+    background: crimson;
+}
+/* Le aplica los estilos  al elemento que le está pasando el mouse por encima */
+.enlace:hover{
+    padding: 40px 20px;
+    transition: all 0.5s ease-in-out;
+}
+/* Le aplica los estilos cuando doy clic y se quita cuando suelto el mouse */
+.enlace:active{
+    background: steelblue;
+    color: #fff;
+}
