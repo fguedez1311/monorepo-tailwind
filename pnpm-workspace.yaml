@@ -1,0 +1,3 @@
+# pnpm-workspace.yaml
+packages:
+  - 'packages/*' # Esto indicará a pnpm que busque paquetes en la carpeta 'packages'
